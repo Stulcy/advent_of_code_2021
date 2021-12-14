@@ -1,4 +1,4 @@
-f = open('day4/day4.txt', 'r')
+f = open('day04/day04.txt', 'r')
 numbers_drawn = [num.strip('\n') for num in f.readline().split(
     ',') if num != '\n']
 lines = [line.strip('\n').split() for line in f.readlines() if line != '\n']

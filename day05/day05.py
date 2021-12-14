@@ -1,5 +1,5 @@
 cloud_locations = [[int(point) for point in points.split(',')] for points in [cloud.strip('\n').replace(' -> ', ',')
-                                                                              for cloud in open('day5/day5.txt')]]
+                                                                              for cloud in open('day05/day05.txt')]]
 diagonal_cloud_locations = []
 unique_points = set()
 dangerous_points = set()

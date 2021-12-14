@@ -83,8 +83,8 @@ searched_digits = 0
 result = 0
 
 for config, nums in zip(((numbers[0][:-1].split(' ') for numbers in (line.split('|') for line in open(
-        'day8/day8.txt').readlines()))), ((numbers[1][1:].strip('\n').split(' ') for numbers in (line.split('|') for line in open(
-        'day8/day8.txt').readlines())))):
+        'day08/day08.txt').readlines()))), ((numbers[1][1:].strip('\n').split(' ') for numbers in (line.split('|') for line in open(
+        'day08/day08.txt').readlines())))):
 
     # FIRST PART
     for num in nums:

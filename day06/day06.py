@@ -10,7 +10,7 @@ fish_dictionary = {
     8: 0
 }
 
-for days in open('day6/day6.txt').readline().split(','):
+for days in open('day06/day06.txt').readline().split(','):
     fish_dictionary[int(days)] += 1
 
 

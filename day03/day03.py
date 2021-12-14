@@ -1,4 +1,5 @@
-report = [str(line.strip('\n')) for line in open('day3/day3.txt').readlines()]
+report = [str(line.strip('\n'))
+          for line in open('day03/day03.txt').readlines()]
 
 gamma_binary = ''
 epsilon_binary = ''

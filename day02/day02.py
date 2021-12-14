@@ -2,7 +2,7 @@ horizontal = 0
 depth = 0
 
 for instruction, direction in (((item.split(' ')) for item in [str(instruction.strip('\n'))
-                                                               for instruction in open('day2/day2.txt').readlines()])):
+                                                               for instruction in open('day02/day02.txt').readlines()])):
     if instruction == 'up':
         horizontal -= int(direction)
     elif instruction == 'down':
@@ -17,7 +17,7 @@ depth = 0
 aim = 0
 
 for instruction, direction in (((item.split(' ')) for item in [str(instruction.strip('\n'))
-                                                               for instruction in open('day2/day2.txt').readlines()])):
+                                                               for instruction in open('day02/day02.txt').readlines()])):
     if instruction == 'up':
         aim -= int(direction)
     elif instruction == 'down':

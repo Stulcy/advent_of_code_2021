@@ -1,5 +1,5 @@
 crabship_positions = [int(position) for position in open(
-    'day7/day7.txt').readline().split(',')]
+    'day07/day07.txt').readline().split(',')]
 
 
 def get_best_position(normal_consumption):

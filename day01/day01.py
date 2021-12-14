@@ -1,4 +1,4 @@
-depths = [int(depth) for depth in open('day1/day1.txt').readlines()]
+depths = [int(depth) for depth in open('day01/day01.txt').readlines()]
 
 num = 0
 for prev, curr in zip(depths, depths[1:]):
